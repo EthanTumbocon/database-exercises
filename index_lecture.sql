@@ -1,4 +1,4 @@
-USE jupiter_db;
+USE employees;
 
 -- ====================================
 -- ============================== INDEX
@@ -100,7 +100,7 @@ INSERT INTO pets (pet_name, owner_name, age)
 VALUES ('Bob', 'Correy', 3);
 
 INSERT INTO pets (pet_name, owner_name, age)
-VALUES ('Skippy', 'Jane Doe', 3);
+VALUES ('jonny', 'Jane Doe', 3);
 
 SELECT * FROM pets;
 

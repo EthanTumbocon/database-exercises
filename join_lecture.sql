@@ -1,4 +1,4 @@
-USE jupiter_db;
+USE employees;
 
 CREATE TABLE roles (`codeup_test_db@localhost`
                         id INT UNSIGNED NOT NULL AUTO_INCREMENT,

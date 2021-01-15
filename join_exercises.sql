@@ -1,4 +1,4 @@
-USE jupiter_db;
+USE employees;
 # ============ Join Example Database
 
 INSERT INTO users (name, email, role_id)

@@ -1,4 +1,4 @@
-USE codeup_test_db.sql;
+USE codeup_test_db;
 
 SELECT name AS 'The name of all albums by Pink Floyd';
 FROM albums
@@ -6,7 +6,7 @@ WHERE artist = 'Pink Floyd';
 
 SELECT release_date AS 'The year the Sgt Peppers''s Lonely Hearts Club Band '
 FROM albums
-Where name = 'Sgt Peppers''s Lonely Hearts Club Band'
+Where name = 'Sgt Peppers''s Lonely Hearts Club Band';
 
 SELECT genre AS 'The genres for Nevermind'
 FROM albums
